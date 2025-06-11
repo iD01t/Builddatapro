@@ -23,3 +23,22 @@ files and PDF files.
    analyze.
 
 The application will show any detected fields in the output area.
+
+## EXE Builder
+
+This repository also includes a simple GUI tool for packaging Python scripts
+into standalone Windows executables using PyInstaller.
+
+### Usage
+
+1. Install PyInstaller:
+   ```bash
+   pip install pyinstaller
+   ```
+2. Run the builder:
+   ```bash
+   python builder.py
+   ```
+3. Choose the Python script you want to package and configure any desired
+   options. Click **Build** to generate the executable in the selected output
+   directory.
