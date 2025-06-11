@@ -23,3 +23,17 @@ files and PDF files.
    analyze.
 
 The application will show any detected fields in the output area.
+
+### Building a Windows executable
+
+If you want to run the tool on Windows without requiring Python, you can
+package it as a standalone executable with [PyInstaller](https://pyinstaller.org/).
+
+1. Open a Command Prompt and run:
+
+   ```cmd
+   build_exe.bat
+   ```
+
+   This script installs PyInstaller if necessary and creates `dist\app.exe`.
+2. Launch `dist\app.exe` to use the program on Windows.

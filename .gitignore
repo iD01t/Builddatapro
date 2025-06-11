@@ -1,0 +1,7 @@
+# Ignore PyInstaller build output
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
